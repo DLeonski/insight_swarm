@@ -1,0 +1,501 @@
+id,order_id,region,category,quarter,year,sales
+1,ORD-0001,South,Technology,Q4,2023,1384.46
+2,ORD-0002,East,Furniture,Q3,2023,833.87
+3,ORD-0003,East,Furniture,Q1,2022,954.34
+4,ORD-0004,North,Office Supplies,Q3,2022,358.03
+5,ORD-0005,South,Furniture,Q3,2023,681.79
+6,ORD-0006,South,Office Supplies,Q2,2022,355.13
+7,ORD-0007,West,Technology,Q4,2023,1407.58
+8,ORD-0008,West,Technology,Q1,2022,963.08
+9,ORD-0009,West,Technology,Q2,2023,1316.26
+10,ORD-0010,North,Furniture,Q3,2022,872.46
+11,ORD-0011,South,Technology,Q2,2022,1355.39
+12,ORD-0012,South,Furniture,Q1,2022,922.67
+13,ORD-0013,North,Office Supplies,Q4,2023,301.91
+14,ORD-0014,West,Furniture,Q1,2023,896.48
+15,ORD-0015,East,Furniture,Q1,2022,674.38
+16,ORD-0016,West,Office Supplies,Q3,2023,162.11
+17,ORD-0017,East,Office Supplies,Q2,2022,342.4
+18,ORD-0018,North,Office Supplies,Q1,2023,275.01
+19,ORD-0019,West,Office Supplies,Q1,2022,330.5
+20,ORD-0020,South,Office Supplies,Q3,2023,253.62
+21,ORD-0021,West,Furniture,Q3,2023,497.53
+22,ORD-0022,West,Office Supplies,Q1,2023,275.67
+23,ORD-0023,North,Furniture,Q2,2023,802.22
+24,ORD-0024,West,Technology,Q4,2023,1168.1
+25,ORD-0025,East,Furniture,Q1,2022,811.71
+26,ORD-0026,North,Furniture,Q4,2023,756.92
+27,ORD-0027,North,Technology,Q2,2022,1184.44
+28,ORD-0028,West,Furniture,Q3,2022,796.9
+29,ORD-0029,West,Furniture,Q1,2022,774.72
+30,ORD-0030,North,Technology,Q1,2023,1327.64
+31,ORD-0031,West,Technology,Q3,2023,722.76
+32,ORD-0032,North,Technology,Q4,2022,1207.92
+33,ORD-0033,North,Office Supplies,Q2,2023,322.23
+34,ORD-0034,South,Furniture,Q3,2023,641.02
+35,ORD-0035,North,Technology,Q1,2023,1155.88
+36,ORD-0036,South,Furniture,Q1,2022,840.02
+37,ORD-0037,West,Furniture,Q3,2023,612.17
+38,ORD-0038,East,Technology,Q2,2022,1034.22
+39,ORD-0039,West,Office Supplies,Q2,2023,247.0
+40,ORD-0040,East,Office Supplies,Q4,2022,287.59
+41,ORD-0041,North,Office Supplies,Q3,2023,250.22
+42,ORD-0042,North,Technology,Q3,2022,1269.68
+43,ORD-0043,East,Office Supplies,Q2,2022,301.84
+44,ORD-0044,East,Technology,Q4,2023,1398.75
+45,ORD-0045,East,Furniture,Q3,2022,772.65
+46,ORD-0046,West,Furniture,Q4,2023,762.66
+47,ORD-0047,East,Technology,Q1,2022,1231.08
+48,ORD-0048,North,Furniture,Q1,2022,863.29
+49,ORD-0049,West,Office Supplies,Q1,2023,310.24
+50,ORD-0050,North,Office Supplies,Q2,2022,275.71
+51,ORD-0051,West,Furniture,Q1,2022,661.59
+52,ORD-0052,South,Furniture,Q3,2023,730.77
+53,ORD-0053,East,Technology,Q3,2023,1377.85
+54,ORD-0054,East,Technology,Q4,2022,1266.38
+55,ORD-0055,South,Technology,Q2,2022,966.55
+56,ORD-0056,West,Furniture,Q4,2023,878.0
+57,ORD-0057,West,Office Supplies,Q1,2023,288.85
+58,ORD-0058,West,Furniture,Q2,2023,673.42
+59,ORD-0059,West,Furniture,Q3,2023,440.45
+60,ORD-0060,North,Technology,Q4,2023,1348.43
+61,ORD-0061,North,Technology,Q1,2022,1234.81
+62,ORD-0062,North,Furniture,Q2,2023,713.83
+63,ORD-0063,West,Technology,Q1,2023,1336.24
+64,ORD-0064,West,Technology,Q3,2022,1288.76
+65,ORD-0065,East,Furniture,Q1,2022,894.24
+66,ORD-0066,East,Technology,Q4,2022,1111.59
+67,ORD-0067,North,Technology,Q2,2023,1291.65
+68,ORD-0068,East,Office Supplies,Q4,2022,333.82
+69,ORD-0069,North,Technology,Q2,2023,1262.66
+70,ORD-0070,North,Furniture,Q1,2023,651.12
+71,ORD-0071,South,Furniture,Q4,2022,811.11
+72,ORD-0072,North,Office Supplies,Q2,2023,304.24
+73,ORD-0073,East,Office Supplies,Q4,2022,347.88
+74,ORD-0074,South,Furniture,Q2,2022,736.61
+75,ORD-0075,North,Office Supplies,Q1,2023,263.6
+76,ORD-0076,South,Technology,Q3,2022,1033.33
+77,ORD-0077,West,Furniture,Q1,2022,642.05
+78,ORD-0078,North,Office Supplies,Q2,2023,340.65
+79,ORD-0079,West,Furniture,Q3,2023,459.67
+80,ORD-0080,East,Furniture,Q1,2023,879.76
+81,ORD-0081,South,Furniture,Q1,2023,903.09
+82,ORD-0082,East,Technology,Q1,2023,1042.51
+83,ORD-0083,North,Technology,Q2,2023,1265.34
+84,ORD-0084,West,Technology,Q3,2023,696.2
+85,ORD-0085,East,Furniture,Q2,2022,858.6
+86,ORD-0086,North,Furniture,Q3,2023,796.48
+87,ORD-0087,East,Technology,Q4,2023,1331.01
+88,ORD-0088,North,Furniture,Q2,2023,674.66
+89,ORD-0089,North,Office Supplies,Q4,2023,319.08
+90,ORD-0090,West,Furniture,Q4,2022,816.47
+91,ORD-0091,North,Technology,Q1,2023,1224.44
+92,ORD-0092,East,Technology,Q4,2022,1052.88
+93,ORD-0093,North,Technology,Q1,2023,1387.41
+94,ORD-0094,South,Office Supplies,Q3,2023,318.65
+95,ORD-0095,North,Technology,Q4,2023,1032.15
+96,ORD-0096,North,Technology,Q2,2022,1213.84
+97,ORD-0097,West,Office Supplies,Q4,2022,298.46
+98,ORD-0098,East,Furniture,Q2,2022,793.65
+99,ORD-0099,North,Office Supplies,Q2,2022,317.23
+100,ORD-0100,North,Furniture,Q4,2022,894.32
+101,ORD-0101,West,Furniture,Q1,2022,812.36
+102,ORD-0102,West,Technology,Q3,2022,1415.54
+103,ORD-0103,North,Office Supplies,Q1,2023,256.09
+104,ORD-0104,West,Furniture,Q2,2022,647.96
+105,ORD-0105,East,Furniture,Q4,2023,759.36
+106,ORD-0106,East,Furniture,Q2,2022,650.92
+107,ORD-0107,South,Technology,Q1,2023,1103.17
+108,ORD-0108,South,Office Supplies,Q2,2022,295.82
+109,ORD-0109,East,Technology,Q3,2023,962.92
+110,ORD-0110,South,Office Supplies,Q4,2023,333.47
+111,ORD-0111,East,Office Supplies,Q1,2023,344.22
+112,ORD-0112,North,Office Supplies,Q2,2023,246.85
+113,ORD-0113,North,Office Supplies,Q1,2022,321.07
+114,ORD-0114,North,Technology,Q1,2023,1273.2
+115,ORD-0115,North,Office Supplies,Q3,2023,264.7
+116,ORD-0116,South,Furniture,Q1,2022,682.14
+117,ORD-0117,West,Office Supplies,Q4,2023,319.59
+118,ORD-0118,South,Furniture,Q3,2023,674.04
+119,ORD-0119,West,Furniture,Q1,2023,640.43
+120,ORD-0120,South,Office Supplies,Q4,2022,295.02
+121,ORD-0121,West,Office Supplies,Q1,2023,311.96
+122,ORD-0122,West,Furniture,Q3,2022,741.27
+123,ORD-0123,South,Office Supplies,Q2,2023,342.13
+124,ORD-0124,East,Office Supplies,Q3,2023,311.22
+125,ORD-0125,West,Technology,Q2,2023,1195.2
+126,ORD-0126,South,Office Supplies,Q4,2022,246.14
+127,ORD-0127,West,Furniture,Q4,2023,923.54
+128,ORD-0128,West,Furniture,Q3,2023,601.42
+129,ORD-0129,North,Technology,Q3,2022,1410.83
+130,ORD-0130,South,Office Supplies,Q2,2023,342.23
+131,ORD-0131,East,Office Supplies,Q4,2023,262.93
+132,ORD-0132,East,Office Supplies,Q4,2023,353.88
+133,ORD-0133,East,Technology,Q4,2022,1334.85
+134,ORD-0134,East,Office Supplies,Q1,2022,328.4
+135,ORD-0135,West,Office Supplies,Q3,2022,287.44
+136,ORD-0136,East,Furniture,Q3,2023,641.31
+137,ORD-0137,North,Furniture,Q1,2023,842.58
+138,ORD-0138,West,Furniture,Q4,2022,810.55
+139,ORD-0139,West,Furniture,Q1,2023,920.74
+140,ORD-0140,East,Technology,Q1,2022,1057.47
+141,ORD-0141,East,Technology,Q2,2023,1219.16
+142,ORD-0142,West,Technology,Q4,2022,999.79
+143,ORD-0143,West,Technology,Q2,2023,1241.04
+144,ORD-0144,North,Furniture,Q3,2022,809.69
+145,ORD-0145,North,Furniture,Q4,2022,736.78
+146,ORD-0146,West,Office Supplies,Q3,2023,233.01
+147,ORD-0147,South,Technology,Q1,2023,1081.42
+148,ORD-0148,North,Office Supplies,Q3,2023,344.16
+149,ORD-0149,East,Furniture,Q2,2023,803.23
+150,ORD-0150,West,Furniture,Q2,2023,870.52
+151,ORD-0151,East,Furniture,Q1,2022,885.84
+152,ORD-0152,West,Office Supplies,Q1,2022,258.75
+153,ORD-0153,West,Technology,Q1,2022,1405.13
+154,ORD-0154,North,Furniture,Q4,2022,946.26
+155,ORD-0155,West,Technology,Q1,2022,1218.9
+156,ORD-0156,West,Office Supplies,Q2,2022,346.32
+157,ORD-0157,West,Office Supplies,Q3,2023,223.54
+158,ORD-0158,North,Office Supplies,Q4,2023,276.01
+159,ORD-0159,North,Office Supplies,Q3,2023,345.11
+160,ORD-0160,North,Furniture,Q2,2022,698.63
+161,ORD-0161,South,Furniture,Q2,2022,762.62
+162,ORD-0162,East,Furniture,Q1,2022,687.18
+163,ORD-0163,South,Office Supplies,Q4,2023,324.88
+164,ORD-0164,East,Office Supplies,Q3,2023,325.1
+165,ORD-0165,North,Technology,Q3,2022,1265.4
+166,ORD-0166,West,Technology,Q1,2022,1103.73
+167,ORD-0167,East,Furniture,Q4,2022,924.66
+168,ORD-0168,South,Technology,Q1,2023,1199.48
+169,ORD-0169,South,Furniture,Q2,2022,904.52
+170,ORD-0170,East,Furniture,Q3,2022,904.95
+171,ORD-0171,West,Technology,Q4,2023,1266.16
+172,ORD-0172,East,Furniture,Q2,2022,942.91
+173,ORD-0173,East,Furniture,Q1,2023,843.96
+174,ORD-0174,East,Technology,Q1,2023,1381.67
+175,ORD-0175,South,Furniture,Q3,2023,934.23
+176,ORD-0176,East,Office Supplies,Q2,2023,245.42
+177,ORD-0177,West,Office Supplies,Q1,2022,312.45
+178,ORD-0178,South,Technology,Q2,2022,1129.7
+179,ORD-0179,North,Furniture,Q1,2022,748.63
+180,ORD-0180,West,Technology,Q2,2023,1041.57
+181,ORD-0181,North,Furniture,Q1,2022,671.71
+182,ORD-0182,West,Office Supplies,Q4,2023,289.52
+183,ORD-0183,East,Office Supplies,Q1,2022,320.28
+184,ORD-0184,South,Technology,Q1,2022,1146.06
+185,ORD-0185,South,Technology,Q4,2023,1350.43
+186,ORD-0186,West,Technology,Q2,2022,1037.02
+187,ORD-0187,West,Office Supplies,Q3,2022,267.84
+188,ORD-0188,North,Office Supplies,Q3,2022,240.76
+189,ORD-0189,North,Technology,Q3,2023,1118.31
+190,ORD-0190,North,Office Supplies,Q4,2023,261.21
+191,ORD-0191,South,Furniture,Q3,2022,737.95
+192,ORD-0192,West,Technology,Q1,2022,1210.34
+193,ORD-0193,East,Furniture,Q2,2023,814.96
+194,ORD-0194,South,Furniture,Q3,2022,674.23
+195,ORD-0195,North,Office Supplies,Q3,2022,246.24
+196,ORD-0196,East,Technology,Q4,2023,1274.03
+197,ORD-0197,North,Office Supplies,Q3,2023,251.72
+198,ORD-0198,East,Technology,Q4,2023,1337.36
+199,ORD-0199,North,Office Supplies,Q3,2022,317.11
+200,ORD-0200,East,Technology,Q3,2023,1295.01
+201,ORD-0201,East,Technology,Q1,2023,1155.11
+202,ORD-0202,South,Office Supplies,Q3,2022,282.55
+203,ORD-0203,East,Technology,Q3,2022,1166.7
+204,ORD-0204,West,Furniture,Q1,2023,689.8
+205,ORD-0205,East,Furniture,Q4,2023,849.39
+206,ORD-0206,West,Technology,Q2,2023,1336.86
+207,ORD-0207,West,Furniture,Q4,2022,701.14
+208,ORD-0208,West,Technology,Q2,2023,1118.63
+209,ORD-0209,East,Office Supplies,Q3,2022,315.34
+210,ORD-0210,North,Technology,Q4,2023,1293.05
+211,ORD-0211,South,Technology,Q1,2022,1211.85
+212,ORD-0212,North,Technology,Q2,2022,1174.84
+213,ORD-0213,West,Furniture,Q3,2023,500.82
+214,ORD-0214,East,Furniture,Q1,2023,749.27
+215,ORD-0215,North,Technology,Q2,2023,1073.23
+216,ORD-0216,North,Furniture,Q3,2022,946.32
+217,ORD-0217,North,Technology,Q1,2023,1000.31
+218,ORD-0218,North,Technology,Q3,2023,998.43
+219,ORD-0219,West,Technology,Q2,2023,1284.02
+220,ORD-0220,East,Office Supplies,Q2,2023,297.73
+221,ORD-0221,South,Furniture,Q3,2022,839.9
+222,ORD-0222,West,Office Supplies,Q2,2023,269.03
+223,ORD-0223,North,Technology,Q4,2023,1268.76
+224,ORD-0224,West,Technology,Q4,2022,1232.9
+225,ORD-0225,East,Technology,Q4,2023,1003.65
+226,ORD-0226,South,Technology,Q4,2022,1204.56
+227,ORD-0227,South,Technology,Q1,2023,1178.27
+228,ORD-0228,South,Furniture,Q1,2023,862.78
+229,ORD-0229,West,Technology,Q2,2023,1202.67
+230,ORD-0230,South,Technology,Q1,2023,1056.22
+231,ORD-0231,South,Furniture,Q3,2022,914.23
+232,ORD-0232,North,Furniture,Q3,2023,815.38
+233,ORD-0233,West,Technology,Q2,2022,1266.93
+234,ORD-0234,East,Office Supplies,Q1,2023,281.88
+235,ORD-0235,South,Furniture,Q1,2023,728.84
+236,ORD-0236,West,Technology,Q4,2022,1182.71
+237,ORD-0237,North,Furniture,Q2,2022,830.37
+238,ORD-0238,East,Furniture,Q2,2022,807.91
+239,ORD-0239,North,Furniture,Q4,2023,682.59
+240,ORD-0240,West,Furniture,Q3,2023,559.27
+241,ORD-0241,East,Office Supplies,Q2,2022,252.47
+242,ORD-0242,North,Office Supplies,Q4,2023,315.04
+243,ORD-0243,East,Furniture,Q2,2022,879.98
+244,ORD-0244,East,Furniture,Q1,2022,785.5
+245,ORD-0245,North,Office Supplies,Q1,2023,289.64
+246,ORD-0246,West,Office Supplies,Q4,2023,278.62
+247,ORD-0247,South,Furniture,Q3,2022,735.06
+248,ORD-0248,South,Technology,Q1,2022,1042.69
+249,ORD-0249,East,Office Supplies,Q2,2023,245.97
+250,ORD-0250,North,Furniture,Q1,2022,669.13
+251,ORD-0251,East,Furniture,Q2,2022,803.42
+252,ORD-0252,North,Office Supplies,Q3,2022,336.59
+253,ORD-0253,South,Furniture,Q2,2023,842.84
+254,ORD-0254,West,Technology,Q2,2022,993.05
+255,ORD-0255,East,Technology,Q2,2023,1149.41
+256,ORD-0256,East,Technology,Q2,2023,1398.54
+257,ORD-0257,East,Technology,Q4,2023,1336.12
+258,ORD-0258,South,Technology,Q2,2023,1419.69
+259,ORD-0259,North,Office Supplies,Q1,2022,296.21
+260,ORD-0260,East,Office Supplies,Q4,2022,330.64
+261,ORD-0261,South,Technology,Q4,2022,1133.79
+262,ORD-0262,South,Technology,Q3,2023,1056.04
+263,ORD-0263,East,Office Supplies,Q3,2023,310.93
+264,ORD-0264,West,Furniture,Q4,2022,647.62
+265,ORD-0265,West,Furniture,Q1,2023,668.7
+266,ORD-0266,West,Furniture,Q3,2022,729.56
+267,ORD-0267,South,Furniture,Q1,2022,864.83
+268,ORD-0268,West,Office Supplies,Q1,2022,296.59
+269,ORD-0269,West,Office Supplies,Q2,2023,336.72
+270,ORD-0270,East,Technology,Q3,2022,1239.2
+271,ORD-0271,East,Office Supplies,Q4,2023,251.44
+272,ORD-0272,North,Furniture,Q4,2023,737.26
+273,ORD-0273,West,Office Supplies,Q1,2023,292.74
+274,ORD-0274,North,Technology,Q2,2022,1024.46
+275,ORD-0275,West,Furniture,Q1,2023,695.36
+276,ORD-0276,South,Furniture,Q1,2022,951.46
+277,ORD-0277,East,Furniture,Q1,2022,661.91
+278,ORD-0278,East,Furniture,Q2,2023,938.3
+279,ORD-0279,North,Technology,Q1,2022,1080.84
+280,ORD-0280,North,Technology,Q3,2022,1331.91
+281,ORD-0281,West,Technology,Q3,2023,873.79
+282,ORD-0282,South,Office Supplies,Q2,2023,243.71
+283,ORD-0283,South,Furniture,Q2,2022,772.57
+284,ORD-0284,East,Technology,Q1,2023,1322.06
+285,ORD-0285,South,Technology,Q2,2022,1011.94
+286,ORD-0286,North,Furniture,Q4,2022,713.79
+287,ORD-0287,North,Office Supplies,Q3,2022,277.93
+288,ORD-0288,East,Office Supplies,Q1,2023,248.19
+289,ORD-0289,South,Office Supplies,Q1,2022,256.49
+290,ORD-0290,West,Furniture,Q1,2023,744.27
+291,ORD-0291,East,Furniture,Q3,2022,852.63
+292,ORD-0292,East,Technology,Q2,2023,1369.39
+293,ORD-0293,North,Office Supplies,Q3,2023,278.42
+294,ORD-0294,West,Technology,Q3,2022,1110.38
+295,ORD-0295,West,Furniture,Q3,2023,523.17
+296,ORD-0296,East,Office Supplies,Q1,2023,351.07
+297,ORD-0297,North,Technology,Q4,2022,1149.87
+298,ORD-0298,East,Furniture,Q3,2023,864.95
+299,ORD-0299,East,Furniture,Q4,2022,893.41
+300,ORD-0300,South,Furniture,Q2,2022,672.55
+301,ORD-0301,South,Furniture,Q4,2022,777.4
+302,ORD-0302,South,Office Supplies,Q2,2022,279.87
+303,ORD-0303,South,Technology,Q2,2023,1084.86
+304,ORD-0304,East,Technology,Q2,2023,1309.19
+305,ORD-0305,West,Office Supplies,Q2,2023,274.59
+306,ORD-0306,North,Technology,Q2,2022,1139.16
+307,ORD-0307,North,Office Supplies,Q3,2022,271.29
+308,ORD-0308,East,Furniture,Q1,2022,955.61
+309,ORD-0309,East,Technology,Q2,2023,1210.13
+310,ORD-0310,South,Technology,Q4,2023,1036.16
+311,ORD-0311,West,Furniture,Q4,2022,904.78
+312,ORD-0312,South,Furniture,Q4,2023,773.25
+313,ORD-0313,East,Office Supplies,Q1,2023,305.55
+314,ORD-0314,East,Technology,Q2,2022,1112.62
+315,ORD-0315,West,Furniture,Q1,2022,643.48
+316,ORD-0316,North,Furniture,Q2,2023,902.56
+317,ORD-0317,East,Furniture,Q3,2023,745.25
+318,ORD-0318,North,Office Supplies,Q3,2022,285.78
+319,ORD-0319,South,Furniture,Q1,2022,660.14
+320,ORD-0320,East,Technology,Q1,2022,1202.6
+321,ORD-0321,East,Office Supplies,Q3,2022,354.55
+322,ORD-0322,East,Office Supplies,Q1,2023,331.5
+323,ORD-0323,East,Furniture,Q4,2022,654.47
+324,ORD-0324,West,Furniture,Q3,2023,515.94
+325,ORD-0325,West,Technology,Q4,2022,1232.25
+326,ORD-0326,North,Technology,Q2,2022,1400.44
+327,ORD-0327,South,Technology,Q2,2023,1057.32
+328,ORD-0328,East,Office Supplies,Q1,2023,305.08
+329,ORD-0329,West,Technology,Q2,2022,1031.46
+330,ORD-0330,West,Technology,Q2,2023,1012.36
+331,ORD-0331,South,Office Supplies,Q3,2022,290.54
+332,ORD-0332,East,Technology,Q4,2022,1016.88
+333,ORD-0333,East,Technology,Q4,2023,1185.99
+334,ORD-0334,West,Technology,Q3,2022,1163.75
+335,ORD-0335,East,Furniture,Q4,2022,654.67
+336,ORD-0336,North,Office Supplies,Q1,2023,273.01
+337,ORD-0337,North,Technology,Q1,2022,1366.36
+338,ORD-0338,East,Furniture,Q2,2022,858.44
+339,ORD-0339,West,Furniture,Q3,2023,446.89
+340,ORD-0340,East,Furniture,Q4,2022,640.85
+341,ORD-0341,West,Technology,Q4,2022,1283.23
+342,ORD-0342,East,Technology,Q3,2022,1079.34
+343,ORD-0343,South,Office Supplies,Q4,2023,275.54
+344,ORD-0344,North,Furniture,Q3,2023,706.13
+345,ORD-0345,North,Technology,Q4,2022,1284.01
+346,ORD-0346,East,Office Supplies,Q4,2023,324.22
+347,ORD-0347,South,Furniture,Q4,2022,648.28
+348,ORD-0348,West,Technology,Q2,2022,1052.16
+349,ORD-0349,South,Technology,Q3,2022,1376.94
+350,ORD-0350,South,Office Supplies,Q3,2022,255.96
+351,ORD-0351,South,Technology,Q1,2022,1236.34
+352,ORD-0352,South,Technology,Q1,2022,1371.06
+353,ORD-0353,North,Technology,Q3,2023,1235.08
+354,ORD-0354,West,Technology,Q1,2022,1122.98
+355,ORD-0355,East,Furniture,Q3,2022,690.12
+356,ORD-0356,South,Office Supplies,Q1,2022,267.46
+357,ORD-0357,North,Furniture,Q1,2022,822.29
+358,ORD-0358,East,Furniture,Q4,2023,764.83
+359,ORD-0359,West,Technology,Q2,2022,1240.42
+360,ORD-0360,West,Office Supplies,Q1,2022,305.81
+361,ORD-0361,North,Furniture,Q3,2023,938.05
+362,ORD-0362,North,Office Supplies,Q3,2022,292.47
+363,ORD-0363,East,Furniture,Q2,2023,852.8
+364,ORD-0364,East,Office Supplies,Q2,2023,280.04
+365,ORD-0365,North,Technology,Q1,2023,1091.77
+366,ORD-0366,South,Office Supplies,Q4,2022,265.86
+367,ORD-0367,North,Office Supplies,Q1,2022,293.22
+368,ORD-0368,North,Furniture,Q3,2022,742.5
+369,ORD-0369,East,Office Supplies,Q1,2022,359.93
+370,ORD-0370,West,Furniture,Q1,2022,871.07
+371,ORD-0371,South,Office Supplies,Q4,2023,303.04
+372,ORD-0372,West,Office Supplies,Q3,2023,206.3
+373,ORD-0373,West,Furniture,Q4,2022,855.93
+374,ORD-0374,East,Furniture,Q2,2023,742.63
+375,ORD-0375,North,Office Supplies,Q2,2022,275.56
+376,ORD-0376,South,Technology,Q4,2022,1158.07
+377,ORD-0377,East,Furniture,Q4,2022,876.2
+378,ORD-0378,North,Furniture,Q4,2022,760.65
+379,ORD-0379,East,Furniture,Q1,2023,831.84
+380,ORD-0380,North,Technology,Q3,2022,1185.22
+381,ORD-0381,West,Technology,Q2,2023,1126.63
+382,ORD-0382,North,Furniture,Q3,2023,749.72
+383,ORD-0383,North,Furniture,Q2,2023,875.06
+384,ORD-0384,East,Furniture,Q2,2023,713.34
+385,ORD-0385,North,Office Supplies,Q2,2023,240.89
+386,ORD-0386,South,Office Supplies,Q4,2023,324.89
+387,ORD-0387,North,Office Supplies,Q2,2023,280.35
+388,ORD-0388,East,Furniture,Q3,2023,869.93
+389,ORD-0389,South,Office Supplies,Q2,2022,313.17
+390,ORD-0390,East,Office Supplies,Q1,2022,342.43
+391,ORD-0391,East,Office Supplies,Q1,2023,244.79
+392,ORD-0392,West,Furniture,Q4,2022,869.71
+393,ORD-0393,North,Technology,Q4,2022,1087.39
+394,ORD-0394,South,Technology,Q4,2022,1204.51
+395,ORD-0395,North,Furniture,Q2,2023,813.94
+396,ORD-0396,South,Furniture,Q4,2022,859.27
+397,ORD-0397,East,Office Supplies,Q1,2023,338.06
+398,ORD-0398,South,Furniture,Q4,2022,772.22
+399,ORD-0399,North,Furniture,Q1,2022,849.09
+400,ORD-0400,West,Technology,Q2,2023,1280.89
+401,ORD-0401,North,Furniture,Q1,2023,942.36
+402,ORD-0402,North,Furniture,Q2,2022,890.32
+403,ORD-0403,East,Office Supplies,Q2,2023,323.07
+404,ORD-0404,South,Technology,Q1,2022,1054.19
+405,ORD-0405,West,Office Supplies,Q4,2022,333.08
+406,ORD-0406,West,Furniture,Q3,2023,503.44
+407,ORD-0407,North,Furniture,Q3,2022,802.7
+408,ORD-0408,North,Office Supplies,Q1,2022,274.26
+409,ORD-0409,West,Technology,Q1,2022,1232.12
+410,ORD-0410,North,Furniture,Q2,2023,954.52
+411,ORD-0411,South,Technology,Q4,2022,1057.76
+412,ORD-0412,East,Furniture,Q3,2023,861.71
+413,ORD-0413,North,Furniture,Q2,2022,957.71
+414,ORD-0414,East,Technology,Q1,2022,1074.92
+415,ORD-0415,North,Technology,Q1,2023,1143.46
+416,ORD-0416,West,Office Supplies,Q4,2022,240.25
+417,ORD-0417,South,Technology,Q4,2022,1063.89
+418,ORD-0418,South,Technology,Q3,2022,1176.79
+419,ORD-0419,East,Furniture,Q2,2023,815.31
+420,ORD-0420,South,Furniture,Q2,2022,745.15
+421,ORD-0421,North,Furniture,Q2,2022,917.82
+422,ORD-0422,South,Office Supplies,Q3,2023,330.99
+423,ORD-0423,North,Furniture,Q1,2022,653.46
+424,ORD-0424,East,Office Supplies,Q3,2023,271.71
+425,ORD-0425,North,Office Supplies,Q3,2022,257.26
+426,ORD-0426,South,Furniture,Q4,2023,809.37
+427,ORD-0427,South,Office Supplies,Q4,2023,349.7
+428,ORD-0428,West,Office Supplies,Q3,2023,233.15
+429,ORD-0429,East,Office Supplies,Q1,2022,288.85
+430,ORD-0430,East,Office Supplies,Q1,2022,281.77
+431,ORD-0431,West,Office Supplies,Q4,2022,307.68
+432,ORD-0432,North,Office Supplies,Q4,2022,280.54
+433,ORD-0433,South,Furniture,Q1,2023,826.56
+434,ORD-0434,North,Office Supplies,Q2,2023,324.87
+435,ORD-0435,South,Furniture,Q1,2022,704.14
+436,ORD-0436,East,Office Supplies,Q1,2022,331.25
+437,ORD-0437,North,Office Supplies,Q1,2022,303.48
+438,ORD-0438,West,Technology,Q3,2022,982.38
+439,ORD-0439,East,Furniture,Q4,2023,873.29
+440,ORD-0440,North,Office Supplies,Q4,2023,251.04
+441,ORD-0441,North,Technology,Q2,2023,1351.82
+442,ORD-0442,East,Furniture,Q3,2022,932.86
+443,ORD-0443,West,Technology,Q3,2023,777.94
+444,ORD-0444,North,Furniture,Q3,2023,949.99
+445,ORD-0445,East,Furniture,Q2,2023,844.46
+446,ORD-0446,East,Technology,Q1,2022,1428.12
+447,ORD-0447,South,Office Supplies,Q2,2022,346.16
+448,ORD-0448,East,Furniture,Q3,2023,778.89
+449,ORD-0449,South,Technology,Q4,2022,1336.8
+450,ORD-0450,North,Office Supplies,Q1,2023,356.77
+451,ORD-0451,North,Technology,Q2,2022,1341.81
+452,ORD-0452,West,Office Supplies,Q2,2022,268.64
+453,ORD-0453,North,Office Supplies,Q2,2023,314.87
+454,ORD-0454,North,Technology,Q2,2023,1319.6
+455,ORD-0455,South,Technology,Q4,2023,1035.56
+456,ORD-0456,East,Furniture,Q4,2022,795.8
+457,ORD-0457,South,Office Supplies,Q2,2022,295.19
+458,ORD-0458,North,Office Supplies,Q2,2022,321.02
+459,ORD-0459,South,Technology,Q4,2022,1017.14
+460,ORD-0460,North,Furniture,Q3,2022,755.81
+461,ORD-0461,South,Furniture,Q3,2023,771.44
+462,ORD-0462,North,Furniture,Q3,2023,804.64
+463,ORD-0463,North,Furniture,Q4,2023,947.73
+464,ORD-0464,South,Furniture,Q4,2023,690.28
+465,ORD-0465,East,Furniture,Q1,2022,776.76
+466,ORD-0466,East,Office Supplies,Q3,2022,283.49
+467,ORD-0467,South,Office Supplies,Q2,2022,347.73
+468,ORD-0468,North,Furniture,Q4,2023,737.44
+469,ORD-0469,South,Technology,Q3,2023,1001.67
+470,ORD-0470,North,Technology,Q2,2023,1003.87
+471,ORD-0471,East,Technology,Q4,2023,983.4
+472,ORD-0472,North,Technology,Q1,2023,1263.62
+473,ORD-0473,South,Furniture,Q2,2023,931.52
+474,ORD-0474,North,Technology,Q4,2023,1349.53
+475,ORD-0475,North,Technology,Q1,2022,1162.32
+476,ORD-0476,South,Technology,Q4,2022,1198.11
+477,ORD-0477,South,Furniture,Q2,2023,709.28
+478,ORD-0478,East,Furniture,Q3,2022,645.77
+479,ORD-0479,North,Office Supplies,Q2,2022,259.38
+480,ORD-0480,North,Technology,Q1,2022,1407.65
+481,ORD-0481,North,Office Supplies,Q2,2022,259.2
+482,ORD-0482,West,Technology,Q2,2023,1195.31
+483,ORD-0483,North,Furniture,Q4,2023,907.06
+484,ORD-0484,East,Office Supplies,Q1,2023,297.1
+485,ORD-0485,North,Office Supplies,Q3,2022,309.85
+486,ORD-0486,North,Office Supplies,Q2,2023,288.19
+487,ORD-0487,East,Technology,Q2,2023,1435.44
+488,ORD-0488,South,Furniture,Q4,2022,743.64
+489,ORD-0489,South,Furniture,Q3,2022,831.77
+490,ORD-0490,East,Technology,Q3,2023,1324.66
+491,ORD-0491,South,Furniture,Q4,2022,958.43
+492,ORD-0492,West,Office Supplies,Q3,2022,303.86
+493,ORD-0493,South,Furniture,Q2,2022,926.84
+494,ORD-0494,South,Technology,Q3,2023,1174.52
+495,ORD-0495,West,Office Supplies,Q1,2022,330.11
+496,ORD-0496,North,Office Supplies,Q2,2023,323.69
+497,ORD-0497,East,Furniture,Q4,2022,958.63
+498,ORD-0498,South,Office Supplies,Q4,2023,327.98
+499,ORD-0499,North,Office Supplies,Q2,2023,323.56
+500,ORD-0500,East,Technology,Q4,2022,1410.06
