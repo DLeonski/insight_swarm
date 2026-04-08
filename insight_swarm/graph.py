@@ -67,9 +67,13 @@ def build_graph():
     g.add_node("narrator", narrator_node)
     g.add_node("report", report_node)
 
-    # Linear start
+    # Start: schema always first, then branch by source type
     g.add_edge(START, "schema")
-    g.add_edge("schema", "sql_writer")
+    g.add_conditional_edges(
+        "schema",
+        lambda s: "analyst" if s.get("source_type") in ("csv", "xlsx") and s.get("sql_results") else "sql_writer",
+        {"analyst": "analyst", "sql_writer": "sql_writer"},
+    )
     g.add_edge("sql_writer", "executor")
 
     # After executor: retry / fail / web_search / analyst

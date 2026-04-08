@@ -13,6 +13,6 @@ Web search findings:
 Based on all available evidence, produce a verdict.
 
 Respond with ONLY a valid JSON object — no explanation, no markdown:
-{"verdict": "confirmed", "explanation": "one or two sentences citing specific evidence"}
+{{"verdict": "confirmed", "explanation": "one or two sentences citing specific evidence"}}
 
 Verdict must be one of: "confirmed", "rejected", "inconclusive"

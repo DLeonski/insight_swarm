@@ -49,7 +49,7 @@ def main() -> None:
     )
     parser.add_argument("--file", help="Path to CSV or XLSX file")
     parser.add_argument("--db", help="Path to existing DuckDB file")
-    parser.add_argument("--question", required=True, help="Business question to analyse")
+    parser.add_argument("--question", default=None, help="Business question to analyse (optional — defaults to general analysis)")
     parser.add_argument("--industry", default=None, help="Industry context (e.g. 'retail')")
     parser.add_argument("--context", default=None, help="Additional context (e.g. 'US, 2023')")
     parser.add_argument("--max-cycles", type=int, default=5, help="Max hypothesis test cycles (default 5)")
@@ -57,8 +57,10 @@ def main() -> None:
 
     source_file, source_type = _validate_inputs(args)
 
+    question = args.question or "Analyse this dataset and identify the most important business insights."
+
     initial_state = {
-        "question": args.question,
+        "question": question,
         "industry": args.industry,
         "context": args.context,
         "max_cycles": args.max_cycles,
@@ -81,7 +83,7 @@ def main() -> None:
     }
 
     print(f'\nInsight Swarm starting...')
-    print(f'   Question: {args.question}')
+    print(f'   Question: {question}{"  (auto)" if not args.question else ""}')
     if args.industry:
         print(f'   Industry: {args.industry}')
     print()
