@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Insight Swarm Report</title>
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+           background: #0d1117; color: #e6edf3; margin: 0; padding: 24px; }
+    .header { border-bottom: 1px solid #30363d; padding-bottom: 16px; margin-bottom: 24px; }
+    .header h1 { color: #58a6ff; margin: 0 0 4px; }
+    .meta { color: #8b949e; font-size: 13px; }
+    .section-label { color: #f0883e; font-size: 11px; font-weight: bold;
+                     letter-spacing: 1px; text-transform: uppercase; margin: 24px 0 8px; }
+    .narrative { background: #161b22; border-left: 3px solid #58a6ff;
+                 padding: 16px; border-radius: 4px; line-height: 1.7; }
+    .hypothesis-card { background: #161b22; border: 1px solid #30363d;
+                       border-radius: 8px; padding: 16px; margin-bottom: 12px; }
+    .verdict-badge { display: inline-block; padding: 2px 8px; border-radius: 12px;
+                     font-size: 11px; font-weight: bold; text-transform: uppercase; }
+    .verdict-confirmed { background: #1a4731; color: #3fb950; }
+    .verdict-rejected { background: #3d1a1a; color: #f85149; }
+    .verdict-inconclusive { background: #2d2a1a; color: #d29922; }
+    .h-text { font-weight: bold; margin: 8px 0 4px; }
+    details { margin-top: 16px; }
+    summary { cursor: pointer; color: #58a6ff; font-size: 13px; }
+    pre { background: #0d1117; padding: 12px; border-radius: 4px;
+          font-size: 12px; overflow-x: auto; color: #3fb950; }
+    .chart { margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Insight Swarm Report</h1>
+    <div class="meta">Q: {{ question }} &bull; {{ generated_at }} &bull; {{ source_file }}</div>
+  </div>
+
+  <div class="section-label">Executive Summary</div>
+  <div class="narrative">{{ narrative }}</div>
+
+  <div class="section-label">Findings</div>
+  {% for h in hypotheses %}
+  <div class="hypothesis-card">
+    <span class="verdict-badge verdict-{{ h.verdict }}">{{ h.verdict }}</span>
+    <div class="h-text">H{{ loop.index }}: {{ h.text }}</div>
+    {% if h.chart_html %}
+    <div class="chart">{{ h.chart_html | safe }}</div>
+    {% endif %}
+    {% if h.web_context %}
+    <details>
+      <summary>Web evidence</summary>
+      <pre>{{ h.web_context }}</pre>
+    </details>
+    {% endif %}
+  </div>
+  {% endfor %}
+
+  <div class="section-label">SQL Queries</div>
+  {% for sql in sql_queries %}
+  <details>
+    <summary>Query {{ loop.index }}</summary>
+    <pre>{{ sql }}</pre>
+  </details>
+  {% endfor %}
+</body>
+</html>
