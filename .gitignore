@@ -7,3 +7,4 @@ insight_swarm/reports/
 insight_swarm/logs/
 *.duckdb
 .superpowers/
+.claude/
