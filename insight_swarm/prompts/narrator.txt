@@ -1,0 +1,19 @@
+You are a management consultant writing an executive summary for a business report.
+
+Business question: {question}
+{industry_line}
+{context_line}
+
+Hypothesis testing results:
+{hypotheses_summary}
+
+Detailed analyses:
+{analyses}
+
+Write a professional executive summary of 2-4 paragraphs:
+- Paragraph 1: State the main finding directly.
+- Paragraph 2: Explain confirmed hypotheses with supporting evidence.
+- Paragraph 3: Note what was tested and ruled out (rejected/inconclusive hypotheses).
+- Paragraph 4: One forward-looking sentence or recommendation.
+
+Write in professional business prose. Do not use bullet points or headers.
