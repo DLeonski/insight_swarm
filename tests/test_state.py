@@ -1,39 +1,33 @@
 from insight_swarm.state import InsightState, Hypothesis, LogEntry
 
-def test_hypothesis_has_required_keys():
+
+def test_hypothesis_has_evidence_field():
     h: Hypothesis = {
-        "text": "Sales dropped due to seasonality",
+        "text": "Sales dropped in West",
         "type": "internal",
-        "sql_result": None,
+        "data_slice": None,
         "web_context": None,
         "verdict": "inconclusive",
+        "evidence": "",
     }
-    assert h["type"] in ("internal", "external")
-    assert h["verdict"] in ("confirmed", "rejected", "inconclusive")
+    assert h["evidence"] == ""
 
 
-def test_insight_state_structure():
-    state: InsightState = {
-        "question": "Why did sales drop?",
-        "industry": "retail",
-        "context": "US, 2023",
-        "max_cycles": 5,
-        "source_file": "data/sales.csv",
-        "source_type": "csv",
-        "db_path": "/tmp/test.duckdb",
-        "schema": {},
-        "query_context": "initial",
-        "current_query_goal": "Analyse overall sales trend",
-        "current_sql": None,
-        "sql_error": None,
-        "sql_retry_count": 0,
-        "sql_results": [],
-        "analyses": [],
-        "hypotheses": [],
-        "current_hypothesis_idx": 0,
-        "cycle_count": 0,
-        "narrative": "",
-        "run_log": [],
-    }
-    assert state["max_cycles"] == 5
-    assert state["query_context"] == "initial"
+def test_insight_state_has_data_summary():
+    from tests.conftest import make_state
+    state = make_state()
+    assert "data_summary" in state
+    assert "current_hypothesis" in state
+    assert "evaluator_rounds" in state
+    assert "data_request" in state
+    assert "current_data_slice" in state
+    assert "run_id" in state
+
+
+def test_insight_state_missing_sql_fields():
+    from tests.conftest import make_state
+    state = make_state()
+    assert "sql_error" not in state
+    assert "sql_retry_count" not in state
+    assert "current_sql" not in state
+    assert "db_path" not in state

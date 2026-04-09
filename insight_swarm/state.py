@@ -6,9 +6,10 @@ from typing_extensions import TypedDict
 class Hypothesis(TypedDict):
     text: str
     type: Literal["internal", "external"]
-    sql_result: Optional[list[dict]]   # records format, None if not yet run
-    web_context: Optional[str]
+    data_slice: Optional[list[dict]]   # last pandas result used by evaluator
+    web_context: Optional[str]         # filtered summary from web_analyst
     verdict: Literal["confirmed", "rejected", "inconclusive"]
+    evidence: str                      # specific text/numbers cited by evaluator
 
 
 class LogEntry(TypedDict):
@@ -20,35 +21,35 @@ class LogEntry(TypedDict):
 
 
 class InsightState(TypedDict):
+    # Run identity (for SSE progress)
+    run_id: str
+
     # Input
     question: str
     industry: Optional[str]
     context: Optional[str]
     max_cycles: int
 
-    # File source (set by __main__, used by schema + executor)
-    source_file: str      # original file path
-    source_type: str      # "csv" | "xlsx" | "duckdb"
-    db_path: str          # path to working .duckdb file (set by schema_node)
+    # File
+    source_file: str      # path to uploaded file
+    source_type: str      # "csv" | "xlsx"
 
-    # Schema
-    schema: dict          # {table_name: [{"column": str, "type": str}]}
-
-    # SQL execution
-    query_context: str    # "initial" | "hypothesis"
-    current_query_goal: str
-    current_sql: Optional[str]
-    sql_error: Optional[str]
-    sql_retry_count: int  # reset to 0 per hypothesis by hypothesis_node
-    sql_results: list     # list of list[dict] — one entry per query run
+    # Schema & summary (set by schema_node)
+    schema: dict          # {column_name: dtype_string} flat dict
+    data_summary: list[dict]  # precomputed groupby summary rows
 
     # Analysis
     analyses: list        # list[str]
 
     # Hypotheses
-    hypotheses: list      # list[Hypothesis]
-    current_hypothesis_idx: int
+    hypotheses: list      # list[Hypothesis] — completed with verdicts
+    current_hypothesis: Optional[dict]   # Hypothesis being evaluated right now
+    evaluator_rounds: int                # resets to 0 per hypothesis
     cycle_count: int
+
+    # Evaluator ↔ Data Slicer exchange
+    data_request: Optional[dict]     # {group_by: [str], metric: str, filter?: {str: Any}}
+    current_data_slice: list         # list[dict] result from data_slicer
 
     # Output
     narrative: str
